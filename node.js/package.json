@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-js": "gulp build-js"
+    "build-js": "gulp build-js",
+    "postmerge": "npm run build-js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,11 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-count": "^0.3.0",
+    "gulp-error-handle": "^1.0.0",
+    "gulp-if": "^2.0.2",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
-    "pump": "^1.0.2",
-    "gulp-error-handle": "^1.0.0",
-    "gulp-if": "^2.0.2"
+    "husky": "^0.14.3",
+    "pump": "^1.0.2"
   }
 }
-

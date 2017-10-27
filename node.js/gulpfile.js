@@ -10,10 +10,10 @@ function logError (err) {
 }
 
 gulp.task('build-js', function() {
-    return gulp.src('./js/main.js')
+    return gulp.src('../js/main.js')
       .pipe(errorHandler(logError))
       .pipe(count('## js-files selected'))
       .pipe(concat('bundle.js'))
       .pipe(uglify({ mangle: false }))
-      .pipe(gulp.dest('./dist/'));
+      .pipe(gulp.dest('../dist/'));
   });
