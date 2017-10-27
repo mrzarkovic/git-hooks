@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd "./node.js"
+
+npm run build-js
