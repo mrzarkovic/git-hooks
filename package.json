@@ -1,0 +1,28 @@
+{
+  "name": "kp",
+  "version": "1.0.0",
+  "description": "KP frontend dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "gulp build-js",
+    "watch-js": "gulp build-js watch-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Milos Zarkovic <milos.zarkovic@kupujemprodajem.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-count": "^0.3.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "pump": "^1.0.2",
+    "gulp-error-handle": "^1.0.0",
+    "gulp-if": "^2.0.2"
+  }
+}
+
