@@ -1,12 +1,11 @@
 {
-  "name": "kp",
+  "name": "git-hooks",
   "version": "1.0.0",
-  "description": "KP frontend dev",
+  "description": "Git hooks demo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-js": "gulp build-js",
-    "watch-js": "gulp build-js watch-js"
+    "build-js": "gulp build-js"
   },
   "repository": {
     "type": "git",
